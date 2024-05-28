@@ -1,0 +1,30 @@
+1.Auto Rename Tag
+2.Auto Import
+3.Better Comments
+4.Bracket Pair Color DLW
+5.Bracket Pair Colorization Toggler
+6.Code Runner
+7.CodeSnap
+8.Color Highlight
+9.Error Lens
+10.ESLint
+11.Excalidraw
+12.GitHub Theme
+13.HTML CSS Support
+14.HTML End Tag Labels
+15.Image preview
+16.indent-rainbow
+17.JavaScript (ES6) code snippets
+18.JSON Viewer
+19.Live Server
+20.Material Icon Theme
+21.npm Intellisense
+22.Path Autocomplete
+23.Path Intellisense
+24.Prettier - Code formatter
+25.React Extension Pack
+26.REST Client
+27.Tailwind CSS IntelliSense
+28.Thunder Client
+29.vscode-pets
+30.WakaTime

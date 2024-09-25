@@ -8,8 +8,8 @@
       "when": "**"
     }
   },
-  "javascript.validate.enable": false,
-  "typescript.validate.enable": false,
+  // "javascript.validate.enable": false,
+  // "typescript.validate.enable": false,
   "files.associations": {
     "*.css": "tailwindcss"
   },
@@ -21,10 +21,15 @@
   "editor.quickSuggestions": {
     "strings": true
   },
-  "terminal.integrated.fontSize": 17,
+
   "css.validate": false,
   "editor.inlineSuggest.enabled": true,
-  "editor.fontFamily": "Anonymous Pro",
+  "editor.fontFamily": "Dank Mono",
+  // "editor.fontFamily": "'Fira Code iScript'",
+
+  // "editor.fontFamily": "Mono Lisa",
+  // "powermode.enabled": true,
+  // "editor.fontFamily": "Fira Code Thin",
   "editor.fontLigatures": true,
   "editor.wordWrap": "on",
   "editor.minimap.enabled": true,
@@ -56,33 +61,35 @@
     "source.organizeImports": "explicit"
   },
   "eslint.alwaysShowStatus": true,
+  "terminal.integrated.fontSize": 20,
   "terminal.integrated.fontWeight": "normal",
-  "terminal.integrated.fontFamily": "MesloLGS NF",
+  "terminal.integrated.tabs.enabled": false,
+  "terminal.integrated.lineHeight": 1.2,
+  "terminal.integrated.fontFamily": "Dank Mono",
 
-  "workbench.colorCustomizations": {
-    "terminal.background": "#1D2021",
-    "terminal.foreground": "#A89984",
-    "terminalCursor.background": "#A89984",
-    "terminalCursor.foreground": "#A89984",
-    "terminal.ansiBlack": "#1D2021",
-    "terminal.ansiBlue": "#0D6678",
-    "terminal.ansiBrightBlack": "#665C54",
-    "terminal.ansiBrightBlue": "#0D6678",
-    "terminal.ansiBrightCyan": "#8BA59B",
-    "terminal.ansiBrightGreen": "#95C085",
-    "terminal.ansiBrightMagenta": "#8F4673",
-    "terminal.ansiBrightRed": "#FB543F",
-    "terminal.ansiBrightWhite": "#FDF4C1",
-    "terminal.ansiBrightYellow": "#FAC03B",
-    "terminal.ansiCyan": "#8BA59B",
-    "terminal.ansiGreen": "#95C085",
-    "terminal.ansiMagenta": "#8F4673",
-    "terminal.ansiRed": "#FB543F",
-    "terminal.ansiWhite": "#A89984",
-    "terminal.ansiYellow": "#FAC03B"
-  },
+  // "workbench.colorCustomizations": {
+  //   "terminal.background": "#1D2021",
+  //   "terminal.foreground": "#A89984",
+  //   "terminalCursor.background": "#A89984",
+  //   "terminalCursor.foreground": "#A89984",
+  //   "terminal.ansiBlack": "#1D2021",
+  //   "terminal.ansiBlue": "#0D6678",
+  //   "terminal.ansiBrightBlack": "#665C54",
+  //   "terminal.ansiBrightBlue": "#0D6678",
+  //   "terminal.ansiBrightCyan": "#8BA59B",
+  //   "terminal.ansiBrightGreen": "#95C085",
+  //   "terminal.ansiBrightMagenta": "#8F4673",
+  //   "terminal.ansiBrightRed": "#FB543F",
+  //   "terminal.ansiBrightWhite": "#FDF4C1",
+  //   "terminal.ansiBrightYellow": "#FAC03B",
+  //   "terminal.ansiCyan": "#8BA59B",
+  //   "terminal.ansiGreen": "#95C085",
+  //   "terminal.ansiMagenta": "#8F4673",
+  //   "terminal.ansiRed": "#FB543F",
+  //   "terminal.ansiWhite": "#A89984",
+  //   "terminal.ansiYellow": "#FAC03B"
+  // },
   "liveServer.settings.donotShowInfoMsg": true,
-  "terminal.integrated.defaultProfile.windows": "Git Bash",
   "quokka.automaticRestart": true,
   "editor.renderWhitespace": "none",
   "explorer.confirmDragAndDrop": false,
@@ -93,7 +100,6 @@
   },
   "bracketPairColorizer.depreciation-notice": false,
   "javascript.updateImportsOnFileMove.enabled": "always",
-  "workbench.iconTheme": "material-icon-theme",
   "peacock.favoriteColors": [
     {
       "name": "Angular Red",
@@ -134,14 +140,13 @@
   ],
   "security.workspace.trust.untrustedFiles": "open",
   "editor.linkedEditing": true,
-  "editor.codeLensFontFamily": "Fira Code",
+  "editor.codeLensFontFamily": "Dank Mono",
   "code-runner.runInTerminal": true,
-  "terminal.integrated.defaultProfile.linux": "bash",
+  "terminal.integrated.defaultProfile.osx": "zsh",
   "workbench.productIconTheme": "fluent-icons",
-  "workbench.colorTheme": "GitHub Dark Colorblind (Beta)",
   "errorLens.enabledDiagnosticLevels": ["warning", "info", "error"],
   "errorLens.enabled": true,
-
+  // for c/c++
   "code-runner.saveFileBeforeRun": true,
   "C_Cpp.default.cppStandard": "c++20",
   "C_Cpp.default.cStandard": "c11",
@@ -202,6 +207,7 @@
     "fortran_fixed-form": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
     "fortran": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
     "sml": "cd $dir && sml $fileName",
+    // "c": "cd $dir && gcc $fileName -o $fileNameWithoutExt.exe && $dir$fileNameWithoutExt.exe",
     "c": "cd $dir && gcc $fileName -o $fileNameWithoutExt.exe && $dir$fileNameWithoutExt.exe < input.txt > output.txt",
     "cpp": "cd $dir && g++ $fileName -o $fileNameWithoutExt.exe && $dir$fileNameWithoutExt.exe"
   },
@@ -212,10 +218,24 @@
   "cmake.showOptionsMovedNotification": false,
   "editor.stickyScroll.enabled": false,
   "editor.lineHeight": 0,
-  "editor.fontSize": 20,
+  "editor.fontSize": 18,
   "explorer.compactFolders": false,
   "workbench.editorAssociations": {
     "*.png": "imagePreview.previewEditor"
   },
-  "workbench.activityBar.location": "top"
+  "terminal.integrated.env.osx": {
+    "FIG_NEW_SESSION": "1"
+  },
+  "console-ninja.featureSet": "Community",
+  "console-ninja.toolsToEnableSupportAutomaticallyFor": {
+    "live-server-extension": true,
+    "live-preview-extension": true
+  },
+  "workbench.colorTheme": "Aura Dracula Spirit (Soft)",
+  "workbench.activityBar.location": "top",
+  "workbench.iconTheme": "icons"
+
+  // "[c]": {
+  //   "editor.defaultFormatter": "ms-vscode.cpptools"
+  // }
 }

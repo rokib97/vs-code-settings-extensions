@@ -28,3 +28,6 @@
 28.Thunder Client
 29.vscode-pets
 30.WakaTime
+31.Aura Spirit Dracula Theme
+32.Auto Rename Tag
+33.Console Ninja
